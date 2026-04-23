@@ -1,3 +1,7 @@
+---
+const pageTitle = "Home";
+---
+
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
@@ -5,12 +9,13 @@
 		<link rel="icon" href="/favicon.ico" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Sample Project</title>
+		<title>{pageTitle} - Sample Project</title>
 	</head>
 	<body>
 		<a href="/">Home</a>
 		<a href="/about/">About</a>
 		<a href="/blog/">Blog</a>
-		<h1>Sample Project</h1>
+		
+		<h1>{pageTitle}</h1>
 	</body>
 </html>
